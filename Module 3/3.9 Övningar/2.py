@@ -12,22 +12,21 @@ pris = 0
 
 # utföra operationer
 
-if brevVikt <= 20:
-    print()
-elif :
-    print()
-elif :
-    print()
-elif :
-    print()
+if brevVikt >0 and brevVikt <= 20:
+    pris = 5
+    print('Du betalar: ', pris , 'kr')
+elif brevVikt >20 and brevVikt <=50:
+    pris = 15
+    print('Du betalar: ', pris , 'kr')
+elif brevVikt >50 and brevVikt <=100:
+    pris = 30
+    print('Du betalar: ', pris , 'kr')
+elif brevVikt > 100:
+    pris = 50
+    print('Du betalar: ', pris , 'kr')
 else:
-    print()
+    print('ogiltig vikt')
 
 
-t = float(input('Temp ?'))
-if t < 18:
-    print('det är kallt')
-    print('sätt på värmen')
-    if t<12:
-        print('sätt på jackan')
+
     
