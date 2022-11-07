@@ -1,6 +1,5 @@
 #Skriv ett program som läser in ett tal och printar ut multiplikationstabell av talet.
 
-
 tal = int(input('ange ett tal: '))
 
 for k in range(10):
